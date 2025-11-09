@@ -46,7 +46,12 @@ export default function Home() {
                 </div>
                 <h2 className="mb-4 text-2xl font-bold text-card-foreground md:text-3xl">Android</h2>
                 <p className="mb-6 text-muted-foreground">Descarga la app desde Google Play Store</p>
-                <div className="relative mb-6">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.prodelibre.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative mb-6 block"
+                >
                   <div className="rounded-lg bg-white p-4 shadow-md">
                     <Image
                       src="/qr-playstore.png"
@@ -56,12 +61,16 @@ export default function Home() {
                       className="h-48 w-48"
                     />
                   </div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="rounded-lg bg-primary px-6 py-3 shadow-lg">
-                      <p className="text-lg font-bold text-primary-foreground">Próximamente</p>
-                    </div>
-                  </div>
-                </div>
+                </a>
+                <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.prodelibre.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Descargar para Android
+                  </a>
+                </Button>
               </div>
             </Card>
 
