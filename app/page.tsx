@@ -38,7 +38,8 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid gap-8 md:grid-cols-2">
-            {/* Android Card */}
+
+             {/* Android Card */}
             <Card className="overflow-hidden border-2 border-primary/20 bg-card p-8 transition-all hover:border-primary/40 hover:shadow-lg">
               <div className="flex flex-col items-center text-center">
                 <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
