@@ -54,13 +54,7 @@ export default function Home() {
                   className="relative mb-6 block"
                 >
                   <div className="rounded-lg bg-white p-4 shadow-md">
-                    <Image
-                      src="/qr-playstore.png"
-                      alt="QR Code Play Store"
-                      width={200}
-                      height={200}
-                      className="h-48 w-48"
-                    />
+                   
                   </div>
                 </a>
                 <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
